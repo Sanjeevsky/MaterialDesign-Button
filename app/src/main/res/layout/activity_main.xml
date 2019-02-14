@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/raised_btn"
+        android:layout_marginTop="24dp"
+        android:text="@string/raised_button"
+        android:layout_centerHorizontal="true"
+        style="@style/RaisedButton"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flat_btn"
+        android:layout_below="@id/raised_btn"
+        android:layout_marginTop="24dp"
+        android:text="@string/flat_button"
+        android:layout_centerHorizontal="true"
+        style="@style/FlatButton"/>
+<android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/fsn_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/gmail"
+        app:fabSize="normal"
+        app:elevation="8dp"
+        app:backgroundTintMode="@color/colorFAB"
+    />
+
+</RelativeLayout>
